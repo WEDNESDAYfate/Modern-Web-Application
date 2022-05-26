@@ -1,0 +1,22 @@
+{
+  "name": "app24",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app24.js",
+  "scripts": {
+    "start": "node app24.js",
+    "dev": "npx nodemon app24.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MWA",
+    "CS572",
+    "Lesson"
+  ],
+  "author": "Lkhagvazaya Gantulga",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}s
