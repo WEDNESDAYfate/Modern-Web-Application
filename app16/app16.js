@@ -28,3 +28,9 @@ const serveAllRequests = function (req, res) {
 
     }
 }
+const server =
+    http.createServer(serveAllRequests);
+server.listen(3000, "localhost",
+    function () {
+        console.log("Server is running on http://localhost:3000");
+    });

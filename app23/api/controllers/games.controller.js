@@ -1,3 +1,5 @@
+const gamesDate = require("../data/games.json");
+//const path 
 const getAll = function (req, res) {
     console.log("Get all games");
     let count = 5;
@@ -10,6 +12,7 @@ const getAll = function (req, res) {
     }
     // console.log("count", count, "offset", offset);
     const pageGames = gamesDate.slice(offset, offset + count);
+    const gamesCollection = db.collection(process.env)
     res.status(200).json(pageGames);
 };
 
